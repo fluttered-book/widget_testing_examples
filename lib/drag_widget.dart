@@ -17,7 +17,7 @@ class _DragWidgetState extends State<DragWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Drag example")),
       body: ListView.builder(
         itemCount: todos.length,
         itemBuilder: (context, index) => Dismissible(

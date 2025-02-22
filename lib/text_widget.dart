@@ -14,7 +14,7 @@ class _TextExampleWidgetState extends State<TextExampleWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Text example")),
       body: Column(
         children: [
           if (_name.isNotEmpty) Text("Hello $_name"),

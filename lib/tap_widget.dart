@@ -12,7 +12,7 @@ class _TapWidgetState extends State<TapWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Tap example")),
       body: Center(
         child: ok
             ? Text('Button was tapped')

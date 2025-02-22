@@ -8,7 +8,7 @@ class ScrollWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Scroll example")),
       body: ListView.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
