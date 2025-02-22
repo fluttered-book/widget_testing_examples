@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widget_testing/scroll_widget.dart';
+import 'package:widget_testing_examples/scroll_widget.dart';
 
 void main() {
   testWidgets('Scrolling reveals additional tiles', (tester) async {

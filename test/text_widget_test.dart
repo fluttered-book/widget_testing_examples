@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widget_testing/text_widget.dart';
+import 'package:widget_testing_examples/text_widget.dart';
 
 void main() {
   testWidgets("Entering a name shows a greeting", (tester) async {

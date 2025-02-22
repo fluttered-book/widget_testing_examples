@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widget_testing/drag_widget.dart';
+import 'package:widget_testing_examples/drag_widget.dart';
 
 void main() {
   testWidgets('Remove a todo', (tester) async {

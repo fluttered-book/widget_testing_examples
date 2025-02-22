@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:widget_testing/drag_widget.dart';
-import 'package:widget_testing/scroll_widget.dart';
-import 'package:widget_testing/tap_widget.dart';
-import 'package:widget_testing/text_widget.dart';
+
+import 'drag_widget.dart';
+import 'scroll_widget.dart';
+import 'tap_widget.dart';
+import 'text_widget.dart';
 
 void main() {
   runApp(MyApp());

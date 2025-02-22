@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:widget_testing/tap_widget.dart';
+import 'package:widget_testing_examples/tap_widget.dart';
 
 void main() {
   testWidgets('Tapping "OK" provides feedback', (tester) async {
